@@ -3,15 +3,15 @@
 
 Linux:
 ```sh
-git clone https://github.com/ostis-apps/ostis-example-app.git
-cd {project-name}/scripts
+git clone https://github.com/ostis-apps/ostis-prosem.git
+cd ostis-prosem/scripts
 ./install_ostis.sh
 ```
 
 ## Build knowledge base
 Linux:
 ```sh
-cd {project-name}/ostis/scripts
+cd ostis-prosem/ostis/scripts
 ./build_kb.sh
 ```
 
@@ -19,11 +19,11 @@ cd {project-name}/ostis/scripts
 Run on Linux:
 ```sh
 #Terminal 1
-cd {project-name}/ostis/scripts
+cd ostis-prosem/ostis/scripts
 ./run_sctp.sh
 
 #Terminal 2
-cd {project-name}/ostis/scripts
+cd ostis-prosem/ostis/scripts
 ./run_scweb.sh
 ```
 
@@ -36,9 +36,6 @@ Place for knowledge base of your app. Put your **.scs** and **.gwf** files here.
 
 ### problem-solver
 Place for problem solver of your app. Put your agents here.
-
-*Use **scp_stable** branch for development of agents on SCP.*  
-*Use **0.5.0** or **0.6.0** branch for development of agents on C++.*
 
 #### Agents on C++
 Some tips:
