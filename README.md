@@ -42,7 +42,7 @@ Some tips:
 - Store your modules with c++ agents in *problem-solver/cxx*;
 - After update c++ code you need to rebuild sc-machine. Just run:  
 ```
-cd {project-name}/ostis/sc-machine/scripts
+cd ostis-prosem/ostis/sc-machine/scripts
 ./make_all.sh
 ```
 - For enable debug:
