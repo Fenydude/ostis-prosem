@@ -47,7 +47,7 @@ cd {project-name}/ostis/sc-machine/scripts
 ```
 - For enable debug:
     * add *SET(CMAKE_BUILD_TYPE Debug)* line 
-    to *{project-name}/ostis/sc-machine/CMakeLists.txt* file;
+    to *ostis-prosem/ostis/sc-machine/CMakeLists.txt* file;
     * rebuild sc-machine.
 - Look example module with C++ agent [here](problem-solver/cxx/exampleModule/README.md).
 
