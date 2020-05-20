@@ -1,0 +1,11 @@
+section_subject_domain_of_java_script_language
+=> nrel_main_idtf:
+	[Раздел. Предметная область язык JavaScript.](* <- lang_ru;; *);
+	[Section. Subject domain of JavaScript language.](* <- lang_en;; *);
+<- not_enough_formed_structure;
+<- ui_start_sc_element;
+<- atomic_section;;
+section_subject_domain_of_java_script_language = [*^"file://section_subject_domain_of_java_script_language.scsi"*];;
+
+section_subject_domain_of_aromatic_compounds
+-> rrel_key_sc_element: subject_domain_of_java_script_language;;		
